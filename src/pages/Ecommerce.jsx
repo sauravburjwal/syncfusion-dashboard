@@ -1,12 +1,12 @@
-import React from "react";
-import { GoPrimitiveDot } from "react-icons/go";
-import { Stacked, Pie, Button, SparkLine } from "../components";
+import React from 'react';
+import { GoPrimitiveDot } from 'react-icons/go';
+import { Stacked, Pie, Button, SparkLine } from '../components';
 import {
   earningData,
   SparklineAreaData,
   ecomPieChartData,
-} from "../data/dummy";
-import { useStateContext } from "../contexts/ContextProvider";
+} from '../data/dummy';
+import { useStateContext } from '../contexts/ContextProvider';
 
 const Ecommerce = () => {
   const { currentColor } = useStateContext();

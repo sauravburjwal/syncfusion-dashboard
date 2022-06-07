@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   ChartComponent,
   SeriesCollectionDirective,
@@ -7,16 +7,16 @@ import {
   SplineAreaSeries,
   DateTime,
   Legend,
-} from "@syncfusion/ej2-react-charts";
+} from '@syncfusion/ej2-react-charts';
 
 import {
   areaCustomSeries,
   areaPrimaryXAxis,
   areaPrimaryYAxis,
-} from "../../data/dummy";
-import { Header } from "../../components";
+} from '../../data/dummy';
+import { Header } from '../../components';
 
-import { useStateContext } from "../../contexts/ContextProvider";
+import { useStateContext } from '../../contexts/ContextProvider';
 
 const Area = () => {
   const { currentMode } = useStateContext();
@@ -26,17 +26,18 @@ const Area = () => {
       <div className="w-full">
         <ChartComponent
           id="area-chart"
-          height="420px" 
+          height="420px"
           primaryXAxis={areaPrimaryXAxis}
           primaryYAxis={areaPrimaryYAxis}
           chartArea={{ border: { width: 0 } }}
           tooltip={{ enable: true }}
-          background={currentMode === "Dark" ? "#33373E" : "#fff"}
-legendSettings={{ background: 'white' }}
+          background={currentMode === 'Dark' ? '#33373E' : '#fff'}
+          legendSettings={{ background: 'white' }}
         >
           <Inject services={[SplineAreaSeries, DateTime, Legend]} />
           <SeriesCollectionDirective>
             {areaCustomSeries.map((item, index) => (
+              // eslint-disable-next-line react/jsx-props-no-spreading
               <SeriesDirective key={index} {...item} />
             ))}
           </SeriesCollectionDirective>

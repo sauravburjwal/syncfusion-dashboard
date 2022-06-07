@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   GridComponent,
   ColumnsDirective,
@@ -7,10 +7,10 @@ import {
   Search,
   Toolbar,
   Inject,
-} from "@syncfusion/ej2-react-grids";
+} from '@syncfusion/ej2-react-grids';
 
-import { employeesData, employeesGrid } from "../data/dummy";
-import { Header } from "../components";
+import { employeesData, employeesGrid } from '../data/dummy';
+import { Header } from '../components';
 
 const Employees = () => {
   return (
@@ -20,7 +20,7 @@ const Employees = () => {
         dataSource={employeesData}
         allowPaging
         allowSorting
-        toolbar={["Search"]}
+        toolbar={['Search']}
         width="auto"
       >
         <ColumnsDirective>
