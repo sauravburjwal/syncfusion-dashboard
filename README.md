@@ -1,8 +1,17 @@
-# Build and Deploy a React Admin Dashboard App With Theming, Tables, Charts, Calendar, Kanban and More
-![Shoppy](https://i.ibb.co/W6g39w3/image.png)
+# Dashboard
 
-## Introduction
-This is a code repository for the corresponding video tutorial.
+This is a dashboard based on syncfusion and react.
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://resource.jsmasterypro.com/newsletter
+![image](https://user-images.githubusercontent.com/51444484/187642395-03917a28-5114-43cd-ab72-b741b566088c.png)
+
+In this dashboard there is a section of PAGES in which data related to Order, Empolyees and Customers can be stored very easily.
+
+There are four apps offered in it which are Calender, Kanban Board, Text Editor and Colour Picker so that you won't need google or any other appllications to make use of one of the app.
+
+In this Dashboard Dark Mode is also available.
+
+![image](https://user-images.githubusercontent.com/51444484/187644400-3fbdefcb-7c88-4270-a481-d74df62a4b6f.png)
+
+
+Along with Dark Mode this application also offers SIX different colour themes. 
+![image](https://user-images.githubusercontent.com/51444484/187645418-d1bf0fa5-dae5-42a9-b4f7-ddf6b06827ca.png)
