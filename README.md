@@ -14,4 +14,5 @@ In this Dashboard Dark Mode is also available.
 
 
 Along with Dark Mode this application also offers SIX different colour themes. 
+
 ![image](https://user-images.githubusercontent.com/51444484/187645418-d1bf0fa5-dae5-42a9-b4f7-ddf6b06827ca.png)
