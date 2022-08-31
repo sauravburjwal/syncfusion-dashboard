@@ -8,7 +8,7 @@ In this dashboard there is a section of PAGES in which data related to Order, Em
 
 There are four apps offered in it which are Calender, Kanban Board, Text Editor and Colour Picker so that you won't need google or any other appllications to make use of one of the app.
 
-In this Dashboard Dark Mode is also available.
+## In this Dashboard Dark Mode is also available.
 
 ![image](https://user-images.githubusercontent.com/51444484/187644400-3fbdefcb-7c88-4270-a481-d74df62a4b6f.png)
 
